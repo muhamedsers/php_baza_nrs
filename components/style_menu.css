@@ -1,0 +1,56 @@
+@import url("style.css");
+
+
+
+.navContainer {
+  width: fit-content;
+  display: flex;
+  gap: 2rem;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.navMenu a {
+  padding: 0.5rem;
+  width: fit-content;
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu .a:hover {
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #e4740b;
+  color: #ffffff;
+}
+
+.navMenu .b:hover  {
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: #e4740b;
+  color: #ffffff;
+}

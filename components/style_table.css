@@ -1,0 +1,21 @@
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.tabeContainer {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+table, td {
+    background-color: #29343b;
+    font-size: 24px;
+}
+td {
+    background-color: #c2c2c2;
+    color: aliceblue;
+    width: 15rem;
+}
